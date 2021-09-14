@@ -6,13 +6,6 @@ use App\Http\Controllers\V1\Types\Poly;
 
 class AnalyzingService
 {
-//    private Poly $poly;
-
-//    public function __construct(Poly $poly)
-//    {
-//        $this->poly = $poly;
-//    }
-
     public function getPolyFromString(string $string) :Poly
     {
         $string = $this->checkFirstOfString($string);
